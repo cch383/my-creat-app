@@ -53,4 +53,12 @@ This project is configured to automatically deploy to GitHub Pages using GitHub 
 3. Under **Build and deployment**, select **GitHub Actions** as the source.
 4. Push your changes to the `main` branch.
 
+### IMPORTANT: Enable GitHub Actions Deployment
+
+For the deployment to work, you must configure your repository settings:
+
+1.  Go to **Settings** > **Pages**.
+2.  Under **Build and deployment** > **Source**, select **GitHub Actions**.
+3.  The deployment will trigger automatically on the next push.
+
 The workflow defined in `.github/workflows/deploy.yml` will automatically build and deploy the application.
